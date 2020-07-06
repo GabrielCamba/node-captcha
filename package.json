@@ -7,10 +7,6 @@
         "canvas": "1.0.4"
     },
     "main": "./captcha.js",
-    "engines": {
-        "node": "0.10.x",
-        "npm": "1.4.x"
-    },
     "repository":{
         "type":"git",
         "url":"git@github.com:napa3um/node-captcha.git"
