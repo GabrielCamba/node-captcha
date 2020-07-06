@@ -42,7 +42,7 @@ module.exports = function(params){
                 canvas.toBuffer(function(err, buf) {
             if(req.session)
                 req.session.captcha = text;
-            res.type('jpg');
+           // res.type('jpg');
             res.header('Cache-Control', 'no-cache, private, no-store, must-revalidate, max-stale=0, post-check=0, pre-check=0');
             res.header('Expires', 'Sun, 12 Jan 1986 12:00:00 GMT');
             res.end(buf);
